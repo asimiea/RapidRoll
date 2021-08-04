@@ -1,6 +1,6 @@
 /**@author Asimiea Sobomate-Victor
  * 
- */
+*/
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -17,6 +17,7 @@ public class App extends Application {
         
         VBox vbox = new VBox();
 
+        new Gameplay();
 
         Scene scene = new Scene(vbox);
         scene.setFill(Color.PURPLE);
