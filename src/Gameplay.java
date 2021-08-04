@@ -1,3 +1,4 @@
+import javafx.scene.layout.VBox;
 import javafx.scene.shape.Shape;
 
 public class Gameplay {
@@ -5,4 +6,8 @@ public class Gameplay {
     private Shape rect;
     private Shape circ;
     
+
+    public Gameplay(){
+        
+    }
 }
