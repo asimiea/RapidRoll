@@ -4,7 +4,7 @@
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
@@ -15,14 +15,14 @@ public class App extends Application {
     public void start(Stage primaryStage){
         primaryStage.setTitle("Rapid roll");
         
-        VBox vbox = new VBox();
+        //Pane root = new Pane();
 
         new Gameplay();
 
-        Scene scene = new Scene(vbox);
-        scene.setFill(Color.PURPLE);
+        //Scene scene = new Scene(root);
+        //scene.setFill(Color.PURPLE);
 
-        primaryStage.setScene(scene);
+        primaryStage.setScene(Gameplay.getScene());
         primaryStage.show();
     }
 
