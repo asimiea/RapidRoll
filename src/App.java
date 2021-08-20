@@ -3,9 +3,6 @@
 */
 
 import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class App extends Application {
@@ -15,12 +12,7 @@ public class App extends Application {
     public void start(Stage primaryStage){
         primaryStage.setTitle("Rapid roll");
         
-        //Pane root = new Pane();
-
         new Gameplay();
-
-        //Scene scene = new Scene(root);
-        //scene.setFill(Color.PURPLE);
 
         primaryStage.setScene(Gameplay.getScene());
         primaryStage.show();
