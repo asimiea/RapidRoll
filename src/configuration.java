@@ -9,4 +9,5 @@ public class configuration {
     public static int height = 500;
 
     public static Image ball = new Image("ball.png");
+    public static Image background = new Image("background.png");
 }
